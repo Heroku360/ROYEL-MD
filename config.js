@@ -6,4 +6,6 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
+ALIVE_IMG: precess.env.ALIVE_IMG || "https://telegra.ph/file/cad7038fe82e47f79c609.jpg",
+ALIVE_MSG: process.env.ALIVE_MSG || "🏆 I AM ALIVE NOW 😄",
 };
